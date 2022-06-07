@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 require('dotenv').config()
-const mongoURI = "mongodb+srv://Pankaj:{shshsh}2@cluster0.uehfh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const mongoURI = "mongodb+srv://prapti123:prapti@cluster0.lcbuk.mongodb.net/?retryWrites=true&w=majority"
 
 const connectToMongo = () => {
     mongoose.connect(mongoURI, () => {
